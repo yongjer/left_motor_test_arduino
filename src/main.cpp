@@ -38,4 +38,10 @@ void loop() {
   digitalWrite(rightMotorPin1, LOW);
   digitalWrite(rightMotorPin2, HIGH);
   delay(2000);
+  // stop
+  digitalWrite(leftMotorPin1, LOW);
+  digitalWrite(leftMotorPin2, LOW);
+  digitalWrite(rightMotorPin1, LOW);
+  digitalWrite(rightMotorPin2, LOW);
+  delay(2000);
 }
